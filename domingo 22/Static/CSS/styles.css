@@ -1,0 +1,200 @@
+body{
+font-size:16px;
+
+}
+
+header
+{font-family: 'Rock Salt', cursive;
+ padding:none;
+ text-align: center;
+
+}
+
+body section
+{font-family: 'Coming Soon', cursive;}
+body footer
+{font-family: 'Coming Soon', cursive;}
+
+
+header nav 
+
+{
+position: fixed;
+background-color: rgba(184,20,43,1);
+width:100%;
+text-align:center;
+padding:none;
+margin-top:-1em;
+list-style: none;
+
+}
+
+
+header nav ul li
+{
+display:inline-block;
+color:white;
+text-decoration: none;
+margin:none;
+padding:0 4em 0 4em;
+
+}
+
+header nav a:link{
+color:#FF0000;
+text-decoration: none;
+
+}
+
+header nav a:visited {
+	color:yellow;
+	text-decoration: none;
+}
+
+
+header nav ul li:hover {
+	background-color: rgba(250,20,60,1);
+}
+
+header nav ul li:active {
+	background-color: rgba(20,20,60,1);
+}
+
+
+header figure
+
+{
+	background-color: rgba(80,0,0,1);
+	width:100%;
+	margin-left:0;
+}
+
+header figure img {
+	border-radius: 20%;
+	padding:5em;
+}
+
+header h1{
+	background-color: rgba(80,0,0,1);
+	width:100%;
+	border:none;
+	margin: -3.5em 0 0 0;
+	padding: none;
+	color:white;
+
+}
+
+section{
+	background-color: rgba(100,0,0,1);
+	width:100%;
+	border:none;
+	margin: -1em 0 0 0;
+	padding top:9em;
+	color:white;
+}
+
+section article
+{
+	text-align: center;
+}
+
+section article h2
+
+{
+	width:100%;
+	padding: 3em 0 2em 0;
+}
+
+section article figure
+{
+	display:inline-block;
+	width:30%;
+}
+
+section article figure img
+{
+	border-radius: 60%;
+}
+
+
+section article p
+
+{
+	padding: 0em 2em 0em 2em;
+	margin: 1em 0 auto 1em 0 auto;
+}
+
+footer h2
+
+{
+	background-color: rgba(80,0,0,1);
+	padding:2em 1em 2em 1em;
+	text-align: center;
+	margin:0;
+	color:white;
+}
+
+footer div
+{
+	background-color: rgba(100,0,0,1);
+	color:white;
+	padding: 1em 1em 1em 1em;
+	text-align: center;
+}
+
+
+#mail textarea
+{
+	width:50%;
+	border-radius: 4%;
+	background-color: rgb(0 200 200);
+
+}
+
+
+#redes
+
+{
+
+	width:100%;
+
+}
+
+#nombre 
+{
+	background-color: blue;
+	color:white;
+}
+
+#area
+
+{
+	background-color: rgba(160,20,43,1);
+	color:white;
+	text-align: center;
+	width:50%;
+}
+
+
+
+
+
+
+
+
+
+
+.icon-facebook2:before {
+    content: "\ea8d";
+}
+
+.icon-twitter:before {
+    content: "\ea91";
+}
+
+.icon-link:before {
+    content: "\e9cb";
+}
+
+
+
